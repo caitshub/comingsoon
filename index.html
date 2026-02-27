@@ -5,8 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Coming soon</title>
     <style>
-      body { background-color: black, font-family: system-ui, sans-serif; display: grid; place-items: center; height: 100vh; margin: 0; }
-      .card { text-align: center; padding: 2rem 2.5rem; border: 1px solid #ddd; border-radius: 12px; }
+      body {
+        font-family: system-ui, sans-serif;
+        display: grid;
+        place-items: center;
+        height: 100vh;
+        margin: 0;
+        background: #0b0d10; /* almost black */
+        color: #f2f4f8;
+      }
+      .card {
+        text-align: center;
+        padding: 2rem 2.5rem;
+        border: 1px solid rgba(255, 255, 255, 0.12);
+        border-radius: 12px;
+        background: rgba(255, 255, 255, 0.04);
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.45);
+      }
+      .card h1 {
+        margin: 0 0 0.5rem 0;
+        font-weight: 650;
+      }
+      .card p {
+        margin: 0;
+        opacity: 0.85;
+      }
     </style>
   </head>
   <body>
